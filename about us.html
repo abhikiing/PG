@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Crafters</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about us.html">ABOUT</a></li>
+                    <li><a href="booking.html">BOOKING</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    
+    </section>
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Welcome to Code Crafters</h1>
+                <h2>Your Home Away From Home!</h2>
+                <p>At Code Crafters, we believe that a comfortable and secure place to stay is the foundation of a successful and memorable experience, whether you're a student embarking on your academic journey or a working professional seeking convenient and affordable housing. Our mission is to provide a welcoming and inclusive environment that caters to your needs, making your stay in Your City an unforgettable one.</p>
+                <h2>Join Our Code Crafters Family</h2>
+                <p>We invite you to become a part of the Code Crafters family and experience a comfortable, secure, and vibrant living environment. Feel free to explore our website, check out our rooms, and contact us with any questions or booking inquiries.
+
+                <br><br>Your journey in Your City begins here, and we're excited to be a part of it!</p>
+                <a href="video explore.html" class="hero-btn">Gallery</a>
+            </div>
+            <div class="about-col">
+                <img src="images/about.jpg">
+            </div>
+        </div>
+
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>This is the Project of MNIT Jaipur Hackathon, Team Name Code Crafters</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i>by Code Crafters</p>
+    </section>
+    
+
+    
+    
+
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+
+    </script>
+    
+</body>
+</html>

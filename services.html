@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Crafters</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about us.html">ABOUT</a></li>
+                    <li><a href="booking.html">BOOKING</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Services</h1>
+    </section>
+
+
+    <section class="service-content">
+        
+        <div class="row">
+            <div class="service-left">
+                <video autoplay loop muted playsinline>
+                    <source src="images/about.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <h2>Our Services</h2>
+                <p> Hostels and PG accommodations offer various types of rooms, such as dormitories, shared rooms, and private rooms, to suit different preferences and budgets.</p>
+                <br><br>
+                <p>Many hostels and PG accommodations provide meal services, including breakfast, lunch, and dinner. Some even offer kitchen facilities for residents to cook their meals.</p>
+                    <br>
+                    <p> Safety is a top priority. Services may include 24/7 security, CCTV surveillance, and secure access control to ensure the safety of residents and their belongings.
+                    </p>
+                    <br>
+                    <p>Furnished rooms with essential amenities like beds, study tables, chairs, and storage space make it convenient for residents to move in without much hassle.</p>
+                </p>
+                <br>
+                <p>On-site laundry facilities or access to nearby laundromats make it easier for residents to keep their clothes clean.</p>
+                <br>
+                <p> In the digital age, having a reliable internet connection is crucial. Many hostels and PG accommodations offer Wi-Fi or wired internet access.</p>
+                <br>
+                <p> Regular cleaning and maintenance services ensure that the living spaces are clean and comfortable for residents.</p>
+                <br>
+                <p>Some accommodations offer parking spaces or arrangements for residents who have vehicles.</p>
+                <br>
+                <p>For student accommodations, there may be additional services like academic support, counseling, or access to resources on nearby educational institutions.</p>
+                <div class="comment-box">
+                    <h3>Leave a Comment</h3>
+
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter E-mail">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn">Post Comment</button>
+                    </form>
+
+                </div>
+            </div>
+                
+                
+            <div class="service-right">
+                <h3>Important Services</h3>
+                <div>
+                    <span>Accommodation</span>
+                    <span>*</span>
+                </div>
+                <div>
+                    <span>Meals</span>
+                    <span>*</span>
+                </div>
+                <div>
+                    <span>Security</span>
+                    <span>*</span>
+                </div>
+                <div>
+                    <span>Furniture and Amenities</span>
+                    <span>*</span>
+                </div>
+                <div>
+                    <span>Laundry, ironing and cleaning</span>
+                    <span>*</span>
+                </div>
+                <div>
+                    <span>Wi-Fi and Internet Access</span>
+                    <span>*</span>
+                </div>
+                <div>
+                    <span>Housekeeping</span>
+                    <span>*</span>
+                </div>
+                <div>
+                    <span>Parking</span>
+                    <span>*</span>
+                </div>
+                <div>
+                    <span>Student Services</span>
+                    <span>*</span>
+                </div>
+                
+            </div>
+            
+        </div>
+
+    </section>
+
+    
+    
+    
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>This is the Project of MNIT Jaipur Hackathon, Team Name Code Crafters</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i>by Code Crafters</p>
+    </section>
+    
+
+    
+    
+
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+
+    </script>
+    
+</body>
+</html>
